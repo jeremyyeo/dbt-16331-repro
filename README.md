@@ -3,7 +3,7 @@
 Reproduces https://github.com/dbt-labs/dbt/issues/16331 on `dbt 2.0.2`
 
 1. `.scratch/loop_dbtf_run.sh` - runs dbt in a loop until we see `create or replace ...` on the incrementals.
-2. `.scratch/bq_tool.py` - used to spam creating and deleting tables from the dataset.
+2. `.scratch/bq_tool.py` - used to spam creating and deleting tables from the dataset. Uses the bigquery credentials in your `profiles.yml`.
 
 ## Reproduction steps
 

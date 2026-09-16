@@ -1,0 +1,12 @@
+bq:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      dataset: dbt_jyeo
+      project: cse-sandbox-319708
+      gcs_bucket: cse-jeryeo-test-bucket
+      method: service-account
+      keyfile: .credentials/jeremyyeo-sandbox-2-8add2e5ae7c2.json
+      job_execution_timeout_seconds: 600
+      threads: 6

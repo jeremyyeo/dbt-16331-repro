@@ -1,0 +1,5 @@
+.credentials/
+dbt_internal_packages/
+logs/
+target/
+.user.yml

@@ -1,0 +1,6 @@
+# dbt_project.yml
+name: dbt_basic_5
+profile: bq
+
+flags:
+  manage_state: false
